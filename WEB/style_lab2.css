@@ -41,3 +41,32 @@ ul .item:after {
   height:9px;
   margin-right:0px;
 }
+.img {
+  float: left;
+  margin: 0px 0px 0px 0px; 
+}
+h1 {
+  font-family: 'Raleway', sans-serif;
+}
+
+.text {
+  padding-left:330px;
+  font-size: 10pt;
+  margin-bottom: 10px; 
+  color: #093500;
+}
+
+.text-head {
+  color: green; 
+}
+
+.head-of-text {
+  font-size: 25pt;
+  color: #093500;
+  font-family: 'Raleway', sans-serif;
+}
+
+.block-for-text {
+  background: #F0F1FD;
+  height: 200px;
+}
