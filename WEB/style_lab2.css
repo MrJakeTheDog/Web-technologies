@@ -124,7 +124,7 @@ position: relative;
   position: relative;
   margin-left: 200px;
   left: 79px;
-  top: -167px;
+  top: -157px;
   width: 141px;
   height: 94px;
 }
@@ -141,4 +141,14 @@ position: relative;
   border-bottom-width: 5px;  
   border-bottom-style: solid;
   padding-bottom: 0px;
+}
+
+.copyright {
+  font-size: 10pt;
+  margin-left: 25px;
+  color: #093500;
+}
+
+.link {
+  text-decoration: none;
 }
