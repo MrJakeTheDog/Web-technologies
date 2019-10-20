@@ -80,7 +80,7 @@ h1 {
   width:240;
   margin-left: 25px;
   position: relative;
-  top:-33;
+  top:-65;
 }
 
 .head-of-about {
@@ -97,7 +97,7 @@ h1 {
   margin-right: 25px;
   width:230;
   position: relative;
-  left:50;
+  left:20;
 }
 
 .head-of-about1 {
@@ -124,7 +124,21 @@ position: relative;
   position: relative;
   margin-left: 200px;
   left: 79px;
-  top: -100px;
+  top: -167px;
   width: 141px;
   height: 94px;
+}
+
+.border-bot {
+  border-bottom-color: #EEEEFB;
+  border-bottom-width: 2px;  
+  border-bottom-style: solid;
+  padding-bottom: 30px;  
+}
+
+.border-bot-of-page {
+  border-bottom-color: #EEEEFB;
+  border-bottom-width: 5px;  
+  border-bottom-style: solid;
+  padding-bottom: 0px;
 }
