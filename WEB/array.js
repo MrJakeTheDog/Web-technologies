@@ -27,12 +27,19 @@ arr.push (function () {
 
 arr [2] (); //Виведеться вміст масиву та код який записується в push
 
-
-numbersSum(array_of_nums) {
+//task4
+function numbersSum() {
     var sum = 0;
-    for (let i = 0; array_of_nums.length > i; i++)
-    {
-        
-    }
-    return sum
+    var result = 0;
+    var bucket;
+    do {
+        result = prompt("Input number", '');
+        bucket = parseInt(result,10);
+        if (Number.isInteger(bucket)) { 
+            sum+=bucket;
+        }
+    } while(result != null && bucket != NaN && Number.isInteger(bucket));
+    
+    alert(sum);
 }
+numbersSum()
